@@ -41,6 +41,10 @@ nav{
     font-weight: 700;
     font-size: 16px;
 }
+main section{
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
 /* banner styles */
 .banner{
     text-align: center;
@@ -112,3 +116,28 @@ nav{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* about rating  */
+.ratings-title{
+    text-align: center;
+    font-weight: 700px;
+    font-size: 42px;
+    color: rgba(37, 36, 50, 1) ;
+}
+.rating{
+    padding: 24px;
+    box-shadow: 0 6px 50px 0 rgba(117, 117, 117, 1);
+    border-radius: 14px;
+}
+ .ratings-rate{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+ }
+ .reviewer{
+    display: flex;
+ }
+ .avatar-pic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+ }
