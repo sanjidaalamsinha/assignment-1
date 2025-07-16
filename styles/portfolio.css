@@ -20,29 +20,7 @@
     border-radius: 10px;
     border: none;
 }
-/* action styles */
-.action{
-    display: flex;
-    justify-content: space-between;
-    margin: 116px 160px 116px 140px;
-}
-.action-section{
-    max-width: 518px;
-}
-.section-title{
-    font-size: 42px;
-    font-weight: bold;
-    color: #252432;
-}
-.section-description{
-    font-size: 24px;
-    color:rgba(37, 36, 50, 0.5);
-}
-.mini-picture{
-    width: 403px;
-    height: 328px;
-    border-radius: 48px;
-}
+
 /* header styles */
 .header{
     background-image: url('../images/Hero-bg.png');
@@ -76,4 +54,67 @@ nav{
     font-size: 65px;
     color: #252432;
     text-align: center;
+}
+/* action styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 160px 116px 140px;
+}
+.action-section{
+    max-width: 518px;
+}
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.section-description{
+    font-size: 24px;
+    color:rgba(37, 36, 50, 0.5);
+}
+.mini-picture{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* product styles */
+.product{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 10px;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.product-users{
+    display: flex;
+    justify-content: space-around;
+    padding: 135px 142px 50px 142px;
+    margin-top: 40px;
+}
+.joined-user{
+    font-weight: 700px;
+    font-size: 38px;
+    color: rgba(37, 36, 50, 1);
+    /* padding: 50px 142px 211px 142px; */
+    text-align: center;
+    margin-top: 50px;
+    /* font-size: 38px;
+    font-weight: 700px;
+    color: rgba(37, 36, 50, 1);
+    text-align: center; */
+}
+/* .product-user{
+    display: flex;
+    justify-content: space-around;
+} */
+.user-amount{
+    font-weight: 700px;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.user-description{
+    font-weight: 400px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
