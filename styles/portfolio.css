@@ -141,3 +141,24 @@ main section{
     width: 40px;
     border-radius: 50%;
  }
+ /* focus style */
+ .focus{
+    max-width: 1140px;
+    margin: 137px 149px 92.23px 151px;
+    border-radius: 14px;
+    background-color:beige ;
+    align-items: center;
+ }
+ .focus-section{
+    text-align: center;
+ }
+ .focus-title{
+    font-weight: 700px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 1);
+    padding: 71px 0;
+ }
+ .big-picture{
+    margin: 20px 150px 71px 150px;
+    border-radius: 48px;
+ }
