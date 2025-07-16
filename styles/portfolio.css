@@ -81,32 +81,26 @@ nav{
 /* product styles */
 .product{
     background-color: rgba(78, 71, 255, 0.1);
-    border-radius: 10px;
+    border-radius: 50px;
     max-width: 1140px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
 }
-.product-users{
+.productive-users{
     display: flex;
     justify-content: space-around;
-    padding: 135px 142px 50px 142px;
-    margin-top: 40px;
 }
 .joined-user{
     font-weight: 700px;
     font-size: 38px;
     color: rgba(37, 36, 50, 1);
-    /* padding: 50px 142px 211px 142px; */
+    padding: 50px 142px 40px 142px;
     text-align: center;
-    margin-top: 50px;
-    /* font-size: 38px;
-    font-weight: 700px;
-    color: rgba(37, 36, 50, 1);
-    text-align: center; */
 }
 /* .product-user{
-    display: flex;
-    justify-content: space-around;
+    margin-top: 135px;
+    margin-bottom: 50px;
 } */
 .user-amount{
     font-weight: 700px;
