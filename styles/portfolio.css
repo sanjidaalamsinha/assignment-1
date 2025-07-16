@@ -166,6 +166,7 @@ main section{
  /* footer styles */
  footer{
     display: flex;
+    padding: 0 150px 14px 150px;
  }
  .footer-column{
     width: 50%;
@@ -185,4 +186,16 @@ main section{
     padding: 20px 30px;
     margin-bottom: 19px;
     border: none;
+    font-size: 20px;
+    font-weight: 400px;
+ }
+ .text-text{
+    font-weight: 500px;
+    font-size: 18px;
+    color: #000000;
+ }
+ .submit-up{
+    display: block;
+    width: 100%;
+    text-align: center;
  }
