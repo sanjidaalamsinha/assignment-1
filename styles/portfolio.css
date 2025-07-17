@@ -19,6 +19,11 @@
     padding: 12px 35px;
     border-radius: 10px;
     border: none;
+    transition: 0.3s;
+}
+.btn-primary:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
 }
 .secondary-bg{
     background-color: #F5F8FF;
@@ -163,12 +168,12 @@ main section{
     margin: 20px 150px 71px 150px;
     border-radius: 48px;
  }
- /* footer styles */
- footer{
+ /* form styles */
+ .form-form{
     display: flex;
     padding: 0 150px 14px 150px;
  }
- .footer-column{
+ .form-column{
     width: 50%;
  }
  .form-title{
@@ -177,7 +182,7 @@ main section{
     font-size: 97px;
     color: rgba(0, 0, 0, 1);
  }
- footer input[type="text"],footer input[type="email"], footer textarea{
+ .form-form input[type="text"],.form-form input[type="email"], .form-form textarea{
     height: 70px;
     border-radius: 10px;
     background-color: #FFFFFF;
