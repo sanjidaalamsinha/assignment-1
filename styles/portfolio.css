@@ -102,30 +102,26 @@ main section{
     justify-content: space-around;
 }
 .joined-user{
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 38px;
     color: rgba(37, 36, 50, 1);
     padding: 50px 142px 40px 142px;
     text-align: center;
 }
-/* .product-user{
-    margin-top: 135px;
-    margin-bottom: 50px;
-} */
 .user-amount{
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 80px;
     color: #4E47FF;
 }
 .user-description{
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
 /* about rating  */
 .ratings-title{
     text-align: center;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 42px;
     color: rgba(37, 36, 50, 1) ;
 }
@@ -159,7 +155,7 @@ main section{
     text-align: center;
  }
  .focus-title{
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 50px;
     color: rgba(0, 0, 0, 1);
     padding: 71px 0;
@@ -178,7 +174,7 @@ main section{
  }
  .form-title{
     padding: 200px 115px 200px 0;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 97px;
     color: rgba(0, 0, 0, 1);
  }
@@ -192,10 +188,10 @@ main section{
     margin-bottom: 19px;
     border: none;
     font-size: 20px;
-    font-weight: 400px;
+    font-weight: 400;
  }
  .text-text{
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 18px;
     color: #000000;
  }
@@ -203,4 +199,28 @@ main section{
     display: block;
     width: 100%;
     text-align: center;
+ }
+ /* footer styles */
+ .last-logo{
+    text-align: center;
+    width: 100%;
+ }
+ .website-details{
+   
+ }
+ .website-name{
+    font-weight: 900;
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+    padding: 104px 575px 0 574px;
+ }
+ .website-subtitle{
+    color: rgba(137, 135, 161, 1);
+    padding: 0 455px 0 454px;
+ }
+ .website-links{
+    display: flex;
+    justify-content: space-around;
+    color: rgba(137, 135, 161, 1);
+    padding: 20px 520px 103px 519px;
  }
